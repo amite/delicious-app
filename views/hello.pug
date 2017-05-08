@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    - const upDog = dog.toUpperCase()
+    h2 Hello #{name}! My dog's name is #{upDog}
+    p Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+      | Explicabo nihil ea, quis sequi ratione consequatur quos nisi, 
+      | neque voluptatem nobis, odio veritatis expedita sed vel vero ullam maiores quidem a! 
+      span feew theings
+    img.dog(src="dog.jpg" alt=`dog ${dog}`)
+    p Sale ends in #{h.moment().endOf('day').fromNow()}
