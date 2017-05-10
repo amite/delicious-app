@@ -797,7 +797,8 @@ label {
   display: flex;
   margin-bottom: 2rem;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+      flex-wrap: wrap;
+  margin-top: 20px; }
 
 .tag {
   display: block;
@@ -808,7 +809,9 @@ label {
     -ms-flex-pack: center;
         justify-content: center;
     -ms-flex-align: center;
-        align-items: center; }
+        align-items: center;
+    color: #6a6a6a;
+    letter-spacing: 0.06em; }
     .tag__choice input {
       width: auto;
       right: -1.5rem;
@@ -817,9 +820,10 @@ label {
       z-index: 2; }
       .tag__choice input + label {
         background: #e6e6e6;
-        padding: 1rem 1rem 1rem 4rem; }
+        padding: 1rem 1rem 1rem 3.2rem; }
       .tag__choice input:checked + label {
-        background: #FFC40E; }
+        background: #FFC40E;
+        color: white; }
   .tag__link {
     background: #FFC40E;
     color: #303030;
@@ -1102,7 +1106,8 @@ label {
   background: #FFC40E;
   color: #303030;
   font-family: 'Panama';
-  font-weight: 600; }
+  font-weight: 600;
+  letter-spacing: 0.04em; }
 
 .avatar {
   min-width: 50px;

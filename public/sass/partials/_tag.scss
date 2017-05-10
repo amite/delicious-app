@@ -5,6 +5,7 @@
   display: flex;
   margin-bottom: 2rem;
   flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 .tag {
@@ -14,6 +15,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: $dark-grey;
+    letter-spacing: 0.06em;
     input {
       width: auto;
       right: -1.5rem;
@@ -22,10 +25,11 @@
       z-index: 2;
       & + label {
         background: $grey;
-        padding: 1rem 1rem 1rem 4rem;
+        padding: 1rem 1rem 1rem 3.2rem;
       }
       &:checked + label {
         background: $yellow;
+        color: white;
       }
     }
   }

@@ -3,4 +3,5 @@ variables.env
 node_modules/
 *.log
 haters/
+public/dist/
 .vscode/
