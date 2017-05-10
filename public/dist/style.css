@@ -520,6 +520,29 @@ label {
     margin-bottom: 2rem;
     border-bottom: 1px solid #e6e6e6; }
 
+.inputfile {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1; }
+
+.inputfile + label {
+  font-size: 1.25em;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(227, 227, 227, 0.53);
+  display: inline-block;
+  width: 100%;
+  min-height: 200px;
+  border: 1px dashed silver;
+  margin-top: 20px; }
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+  background-color: red; }
+
 .search {
   position: relative;
   width: 100%;
